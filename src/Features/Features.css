@@ -1,0 +1,17 @@
+
+
+.feature{
+    background: url(../assets/Images/feature-bg.png);
+}
+.card1,.card2,.card3{
+    transform-style: preserve-3d;   
+}
+.card1{
+    transform: translateZ(70px);
+}
+.card2{
+    transform: translateZ(120px);
+}
+.box{
+    transform-style: preserve-3d;
+}

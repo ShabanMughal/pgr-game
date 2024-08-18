@@ -1,0 +1,25 @@
+
+.other{
+    background: url(../assets/Images/news-mobile-ng.jpg);
+}
+
+.main-bg:hover .title{
+   margin-top: 150px;
+}
+.main-bg:hover .bg-img{
+ scale: 1.1;
+ filter: brightness(30%);
+ transition: all .5s;   
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: margin-top .5s;
+}
+@media (max-width: 786px) {
+    .main-bg:hover .title{
+        margin-top: 100px;
+    }
+}

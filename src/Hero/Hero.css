@@ -1,0 +1,92 @@
+.news, .media {
+    background: url(../assets/Images/news-bg.png);
+    object-fit: cover;
+}
+.grade{
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, .85));
+}
+.wallpaper{
+    background: url(../assets/Images/wal-bg.png);
+    object-fit: cover;
+}
+.lucia{
+    background: url(../assets/Images/lucia-bg.png);
+    object-fit: cover;
+    transition: background 0.5s;
+}
+.lee{
+    background: url(../assets/Images/lee-bg.png);
+    object-fit: cover;
+    transition: background 0.5s;
+}
+.bancia{
+    background: url(../assets/Images/bancia-bg.png);
+    object-fit: cover;
+    transition: background 0.5s;
+}
+.hangying{
+    background: url(../assets/Images/Hangying-bg.png);
+    object-fit: cover;
+    transition: background 0.5s;  
+}
+
+
+
+
+.qr-bar{
+    animation: scale-line linear infinite 3s;
+}
+.vid-btn{
+    animation: btn linear infinite 3s;
+}
+.arrowdown{
+    animation: arrow linear infinite 1s;
+}
+.circle-roll{
+    animation: circle-media linear infinite 9s;
+}
+
+@keyframes circle-media {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+@keyframes scale-line {
+    50%{
+        transform: translateY(13vh);
+    }
+}
+
+@keyframes btn {
+    0%, 10%, 100%, 90%{
+        opacity: 1;
+    }
+    50%{
+        opacity: .2;
+    }
+}
+
+@keyframes arrow {
+    0%, 30%{
+        opacity: 0;
+        transform: translate(0,-1vh);
+    
+    }
+    60%{
+        opacity: 1;
+        transform: 0,0;
+    }
+    100%{
+        opacity: 0;
+        transform: translate(0,0);
+    }
+}
+
+
+
