@@ -5,7 +5,7 @@ import { vidAssets } from "../assets/vidAssets";
 import { AnimatePresence, delay, motion } from "framer-motion";
 
 const Data = ({ setDataPlay1, setDataPlay2, setDataPlay3, setDataPlay4 }) => {
-  console.log(setDataPlay1);
+
   const variants = {
     enter: {
       zIndex: 0,
